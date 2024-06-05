@@ -1,0 +1,183 @@
+.img-list-cover {
+    width: 50px;
+    height: 75px;
+}
+
+@media (min-width: 992px) {
+    .img-list-cover {
+        width: 75px;
+        height: 100px;
+    }
+}
+
+.img-profile {
+    width: 200px;
+    height: 200px;
+}
+
+@media (min-width: 992px) {
+    .img-profile {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #787e84;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #343a40;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #010710;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.product-item {
+    border: 1px solid rgb(219, 219, 219);
+}
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
+.btns {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+.btns button {
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btns button:hover {
+    color: #fcb941;
+}
+.product-img:hover .btns {
+    bottom: 0;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.product-type {
+    font-size: 13px;
+    opacity: 0.8;
+}
+.product-name {
+    transition: all 0.3s ease-in-out;
+}
+.product-name:hover {
+    color: #fcb941 !important;
+}
+.product-price {
+    color: #fcb941;
+}
+.rating {
+    font-size: 13px;
+}
+.product-item {
+    width: 250px;
+}
+
+.custom-scroll {
+    max-height: 200px; /* Atur tinggi maksimum sesuai kebutuhan Anda */
+    overflow-y: auto; /* Tampilkan scroll bar vertikal jika kontennya melebihi tinggi maksimum */
+    overflow-x: hidden; /* Sembunyikan scroll bar horizontal */
+    white-space: nowrap; /* Hindari pemutusan baris */
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.product-item {
+    border: 1px solid rgb(219, 219, 219);
+}
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
+.btns {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+.btns button {
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btns button:hover {
+    color: #fcb941;
+}
+.product-img:hover .btns {
+    bottom: 0;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.product-type {
+    font-size: 13px;
+    opacity: 0.8;
+}
+.product-name {
+    transition: all 0.3s ease-in-out;
+}
+.product-name:hover {
+    color: #fcb941 !important;
+}
+.product-price {
+    color: #fcb941;
+}
+.rating {
+    font-size: 13px;
+}
+.product-item {
+    width: 250px;
+}
+
+.custom-scroll {
+    max-height: 200px; /* Atur tinggi maksimum sesuai kebutuhan Anda */
+    overflow-y: auto; /* Tampilkan scroll bar vertikal jika kontennya melebihi tinggi maksimum */
+    overflow-x: hidden; /* Sembunyikan scroll bar horizontal */
+    white-space: nowrap; /* Hindari pemutusan baris */
+}
+
+.fsjudul {
+    font-size: 16px;
+}
+.fsnama-genre {
+    font-size: 12px;
+}
+.box-buku {
+    width: 150px;
+    height: 200px;
+}
